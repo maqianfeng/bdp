@@ -6,7 +6,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 import java.util.stream.Stream;
 
-//@SpringBootTest(classes = )
+@SpringBootTest
 @ContextConfiguration
 public class stream2Test {
     @Test

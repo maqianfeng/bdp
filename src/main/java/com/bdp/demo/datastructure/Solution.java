@@ -49,4 +49,16 @@ public class Solution {
         return half * half * x;
     }
     //这种方法的时间复杂度就是O(logN)了。
+
+    public static void main(String[] args) {
+        int m=10,n=6,r;
+        while (true) {
+            r = m % n;
+            if (r == 0) {
+                System.err.println(n);;
+            }
+            m = n;
+            n = r;
+        }
+    }
 }
